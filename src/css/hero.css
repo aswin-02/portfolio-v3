@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DynaPuff:wght@400..700&family=Lavishly+Yours&family=Playwrite+HU:wght@100..400&family=Press+Start+2P&family=Rubik+Doodle+Shadow&family=Syne+Mono&display=swap');
+
+.hero-content{
+    height: 100vh;
+}
+
+.cirlcle-logo{
+    position: absolute;
+    height: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 4rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.hero-stretch-left {
+  width: 40%;
+  display: block;
+}
+
+.hero-stretch-right {
+    position: absolute;
+    right: -44%;
+    bottom: 10%;
+    width: 66%;
+    display: block;
+}
+
+.about-container{
+    position: relative;
+    height: 100vh;
+}
+
+.about-content {
+    padding: 16%;
+    font-family: "Anybody", sans-serif;
+    font-size: 1.5em;
+}
+
+.float-container{
+    position: absolute;
+    top: -10%;
+}
+
+.float-text{
+}
+
+.text-1{
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text-2{
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text-3{
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.text-4{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text-5{
+    font-family: "Syne Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text-6{
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+.text-me{
+    font-family: "Anybody", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
