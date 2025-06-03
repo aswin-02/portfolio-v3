@@ -7,6 +7,7 @@ import './css/hero.css';
 import Lenis from '@studio-freight/lenis';
 import { renderHeader } from './components/Header.js';
 import { renderHero } from './components/Hero.js';
+import { renderWork } from './components/Work.js';
 
 const lenis = new Lenis({
   duration: 0.5,
@@ -24,4 +25,5 @@ requestAnimationFrame(raf);
 
 renderHeader();
 renderHero();
+renderWork();
 

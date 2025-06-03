@@ -37,18 +37,19 @@
 
 .about-container{
     position: relative;
-    height: 100vh;
+    height: auto;
+    margin-top: 5%;
+    padding: 0%;
 }
 
 .about-content {
-    padding: 16%;
+    padding: 10% 10% 10% 10%;
     font-family: "Anybody", sans-serif;
     font-size: 1.5em;
 }
 
-.float-container{
+.float-container {
     position: absolute;
-    top: -10%;
 }
 
 .float-text{
@@ -98,4 +99,60 @@
     font-family: "Anybody", sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+
+.about-title-container{
+    text-align: end;
+}
+
+.about-title{
+    font-family: "Anybody", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Skill styles */
+
+.skill-container{
+    margin-top: 10%;
+    height: 25vh;
+    background-color: #121212;
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skill-container span{
+    transition: 500ms;
+    cursor: none;
+}
+
+.hover-image {
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10;
+  pointer-events: none;
+  cursor: none;
+  transform: scale(0.3);
+}
+
+.hover-image img {
+  width: 100%; /* Make the image take up the full width of the div */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+.dimmed {
+  opacity: 0.25;
+  transition: opacity 0.3s ease;
 }
