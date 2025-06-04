@@ -82,10 +82,12 @@ export function renderWork() {
                 return index % 2 === 0 ? window.innerWidth / 1 + 100 : -(window.innerWidth / 1 + 100);
             },
             scale: 3,
+            rotate: 15,
         },
         {
             x: 0,
             scale: 1,
+            rotate: 0,
             stagger: 0.2,
             ease: "power3.out",
             scrollTrigger: {

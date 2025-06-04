@@ -38,3 +38,9 @@ img{
     transform: translate(-50%, -50%);
     mix-blend-mode: difference;
 }
+
+@media only screen and (max-width:800px){
+  .cursor-circle {
+    display: none;
+  }
+}

@@ -12,3 +12,31 @@
     font-weight: 700;
     font-style: normal;
 }
+
+.cert-container{
+    margin-top: 10%;
+    height: 100%;
+}
+
+.cert-content{
+    height: 18%;
+    display: flex;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    padding-left: 10%;
+    border-top: 3px solid #212529;
+}
+
+.cert-content:last-child{
+    border-bottom: 3px solid #212529;
+}
+
+.certificate-image{
+    padding: 20px;
+    padding-left: 10%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+}
