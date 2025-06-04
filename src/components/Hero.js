@@ -1,11 +1,14 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import '../css/header.css';
+import '../css/hero.css';
 gsap.registerPlugin(ScrollTrigger);
 
 export function renderHero() {
   const section = document.createElement('section');
   section.className = 'hero';
   section.innerHTML = `
+  <div class="cursor-circle"></div>
     <div class="hero-content mt-5">
         <div id="hero-text-left"></div>
         <img src="public/assets/circle-logo.svg" class="cirlcle-logo"/>
@@ -65,7 +68,7 @@ export function renderHero() {
               <img src="../assets/skills/bootstrap.png" alt="bootstrap" />
             </div>
             <div class="hover-image">
-              <img src="../assets/skills/tailwind.png" alt="tailwind" />
+              <img src="../assets/skills/tailwind.jpg" alt="tailwind" />
             </div>
           </div>
         <sp class="row justify-content-center">
@@ -143,7 +146,7 @@ export function renderHero() {
     })
 
     gsap.to(".hero-stretch-right", 30, {
-      x: -400,
+      x: -650,
       ease: "back.out",
         scrollTrigger:{
           trigger:"#hero-content",

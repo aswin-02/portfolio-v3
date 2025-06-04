@@ -1,3 +1,40 @@
-body{
+html {
+  scroll-behavior: auto;
+  cursor: none;
+}
+body {
+    /* cursor: url('../public/assets/ellipse.cur'), auto; */
+    cursor: none;
     overflow-x: hidden;
+}
+
+/* Prevent Chrome's default smooth scrolling */
+* {
+  scroll-behavior: auto !important;
+  scrollbar-width: none;
+  /* scrollbar-color: #0a0a0a #1a1a1a00; */
+}
+
+img{
+  user-select: none;
+  pointer-events: none;
+}
+
+::selection{
+  background-color: rgb(15, 15, 15);
+  color: #fbfbfb;
+}
+
+.cursor-circle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
 }

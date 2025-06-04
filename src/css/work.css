@@ -1,0 +1,96 @@
+
+.work-content {
+    position: relative;
+    padding: 5% 5% 5% 5%;
+    font-family: "Anybody", sans-serif;
+    font-size: 1.5em;
+}
+
+.work-title-container{
+    margin-top: 10%;
+}
+
+.work-title{
+    font-family: "Anybody", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.spacer {
+    height: 60vh;
+    opacity: 0.2;
+}
+    
+.cards {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.work-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.card-face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 5%;
+    font-size: 24px;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-face h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+.project-decription{
+    font-family: "Anybody", sans-serif;
+    font-style: normal;
+    font-size: large;
+    text-align: justify;
+}
+
+.card-face {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card-back {
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.work-card:nth-child(odd) .card-face {
+    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+    color: white;
+}
+
+.work-card:nth-child(even) .card-face {
+    background: linear-gradient(135deg, #f7f7f7 0%, #c6c6c6 100%);
+    color: #1a1a1a;
+}
+
+.test-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1500px;
+}

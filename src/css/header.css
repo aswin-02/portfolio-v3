@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap');
 
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 0%;
+  background-color: #181818;
+  z-index: 9999;
+  transition: width 0.2s ease-out;
+}
+
 .navbar{
   position: fixed;
   top: 0px;
@@ -22,6 +33,10 @@
     color: #b0adaa;
 }
 
+.navbar-nav a{
+  cursor: none;
+  mix-blend-mode: difference;
+}
 
 .navbar-nav .active span{
     color: #000000;

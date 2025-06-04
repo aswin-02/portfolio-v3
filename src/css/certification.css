@@ -1,0 +1,14 @@
+.certification-container{
+    padding-top: 5%;
+    height: 100vh;
+}
+
+.cert-title-container{
+    text-align: end;
+}
+
+.cert-title{
+    font-family: "Anybody", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

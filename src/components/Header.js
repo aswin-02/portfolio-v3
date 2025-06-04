@@ -1,6 +1,7 @@
 export function renderHeader() {
   const header = document.createElement('header');
   header.innerHTML = `
+  <div class="scroll-progress-bar"></div>
     <nav class="navbar navbar-expand-lg px-3">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +11,7 @@ export function renderHeader() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li>
-            <a href="#about" class="nav-menu active">
+            <a href="#about" class="blend-text nav-menu active">
               <span class="menu-item">BIO</span> <span class="menu-item-active">BIO</span>
             </a>
           </li>
