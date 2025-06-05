@@ -1,0 +1,29 @@
+.footer-container{
+    padding-inline: 3%;
+    padding-top: 15px;
+}
+
+.footer-content{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+}
+
+.text-front{
+    font-family: "Anybody", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text-back{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-block: 1px;
+    padding-inline: 5px;
+    background-color: black;
+    color: white;
+    margin-inline: 5px;
+}

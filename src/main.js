@@ -7,6 +7,8 @@ import { renderHeader } from './components/Header.js';
 import { renderHero } from './components/Hero.js';
 import { renderWork } from './components/Work.js';
 import { renderCertification } from './components/Certification.js';
+import { renderContact } from './components/Contact.js';
+import { renderFooter } from './components/Footer.js';
 
 const lenis = new Lenis({
   duration: 1.2,
@@ -34,6 +36,8 @@ renderHeader();
 renderHero();
 renderWork();
 renderCertification();
+renderContact();
+renderFooter();
 
 
 const cursor = document.querySelector(".cursor-circle");

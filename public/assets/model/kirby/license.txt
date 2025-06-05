@@ -1,0 +1,11 @@
+Model Information:
+* title:	Kirby
+* source:	https://sketchfab.com/3d-models/kirby-e928db1d3734477c9c0eeb5083a17336
+* author:	MagmaMouse (https://sketchfab.com/MagmaMouse)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Kirby" (https://sketchfab.com/3d-models/kirby-e928db1d3734477c9c0eeb5083a17336) by MagmaMouse (https://sketchfab.com/MagmaMouse) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

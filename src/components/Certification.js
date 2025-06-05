@@ -22,7 +22,8 @@ export function renderCertification() {
         <img src="../assets/certification/certificate2.png" class="certificate-image">
       </div>
     </div>
-   </div>`;
+   </div>
+   `;
     document.body.append(section);
 
 
@@ -78,6 +79,7 @@ export function renderCertification() {
             ease: "power2.out"
           });
         }
+        
       });
 
       // Click for mobile
