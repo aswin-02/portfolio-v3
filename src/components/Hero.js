@@ -10,9 +10,9 @@ export function renderHero() {
   section.innerHTML = `
   <div class="cursor-circle"></div>
     <div class="hero-content mt-5">
-        <div id="hero-text-left"></div>
+        <div id="hero-text-left" class="hero-stretch-left"></div>
         <img src="public/assets/circle-logo.svg" class="cirlcle-logo"/>
-        <div id="hero-text-right"></div>
+        <div id="hero-text-right" class="hero-stretch-right"></div>
     </div>
     <div class="about-container container" id="about">
     <div class="about-title-container">
@@ -181,7 +181,6 @@ export function renderHero() {
     start: "top-=100 90%",
     end: "center+=160 80%",
     scrub: true,
-
     onUpdate: self => {
       const index = Math.floor(self.progress * texts.length);
 

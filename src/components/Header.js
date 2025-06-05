@@ -11,7 +11,7 @@ export function renderHeader() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li>
-            <a href="#about" class="blend-text nav-menu active">
+            <a href="#about" class="blend-text nav-menu">
               <span class="menu-item">BIO</span> <span class="menu-item-active">BIO</span>
             </a>
           </li>

@@ -23,9 +23,9 @@ export function renderContact() {
             </div>
             <div class="col-6 social-box">
               <div>
-                <h2><a href="#">LinkedIn</a></h2>
-                <h2><a href="#">Github</a></h2>
-                <h2><a href="#">Email</a></h2>
+                <h2><a href="#">LinkedIn <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></a></h2>
+                <h2><a href="#">Github <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></a></h2>
+                <h2><a href="#">Email <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></a></h2>
               </div>
             </div>
         </div>
@@ -50,7 +50,7 @@ export function renderContact() {
 
     // Set much larger initial size
     const containerWidth = modelContainer.clientWidth || 1200; // Increased from 800
-    const containerHeight = modelContainer.clientHeight || 400; // Increased from 300
+    const containerHeight = modelContainer.clientHeight || 350; // Increased from 300
 
     renderer.setSize(containerWidth, containerHeight);
     renderer.setPixelRatio(window.devicePixelRatio);
@@ -103,7 +103,6 @@ export function renderContact() {
           // DO NOT OVERRIDE MATERIALS — keep original colors & textures
           scene.add(model);
           modelLoaded = true;
-          setupScrollAnimations();
         },
         undefined,
         function (error) {

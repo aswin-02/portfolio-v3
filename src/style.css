@@ -3,11 +3,11 @@
 
 html {
   scroll-behavior: auto;
-  cursor: none;
+  /* cursor: none; */
 }
 body {
     /* cursor: url('../public/assets/ellipse.cur'), auto; */
-    cursor: none;
+    /* cursor: none; */
     overflow-x: hidden;
 }
 

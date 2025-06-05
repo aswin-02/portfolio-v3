@@ -23,6 +23,9 @@ export function renderWork() {
                   <div class="project-decription">
                     <p>Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                   </div>
+                  <div class="project-footer">
+                    <a href="#" class="light-btn">view</a>
+                  </div>
                 </div>
             </div>
             <div class="work-card">
@@ -33,6 +36,9 @@ export function renderWork() {
                   </div>
                   <div class="project-decription">
                     <p>Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                  </div>
+                  <div class="project-footer">
+                    <a href="#" class="dark-btn">view</a>
                   </div>
                 </div>
             </div>
@@ -45,6 +51,9 @@ export function renderWork() {
                   <div class="project-decription">
                     <p>Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                   </div>
+                  <div class="project-footer">
+                    <a href="#" class="light-btn">view</a>
+                  </div>
                 </div>
             </div>
             <div class="work-card">
@@ -56,6 +65,9 @@ export function renderWork() {
                   <div class="project-decription">
                     <p>Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                   </div>
+                  <div class="project-footer">
+                    <a href="#" class="dark-btn">view</a>
+                  </div>
                 </div>
             </div>
             <div class="work-card">
@@ -66,6 +78,9 @@ export function renderWork() {
                   </div>
                   <div class="project-decription">
                     <p>Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                  </div>
+                  <div class="project-footer">
+                    <a href="#" class="light-btn">view</a>
                   </div>
                 </div>
             </div>
@@ -79,16 +94,18 @@ export function renderWork() {
         ".work-card:not(:first-child)",
         {
             x: (index) => {
-                return index % 2 === 0 ? window.innerWidth / 1 + 100 : -(window.innerWidth / 1 + 100);
+                return index % 2 === 0 ? window.innerWidth / 1 + 600 : -(window.innerWidth / 1 + 500);
             },
             scale: 3,
             rotate: 15,
-        },
-        {
+          },
+          {
             x: 0,
             scale: 1,
             rotate: 0,
-            stagger: 0.2,
+            stagger: gsap.utils.distribute({
+              each: window.innerWidth < 800 ? 0.4 : 0.2
+            }),
             ease: "power3.out",
             scrollTrigger: {
                 trigger: ".test-container",

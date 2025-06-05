@@ -50,6 +50,7 @@ export function renderCertification() {
           const img = box.querySelector(".certificate-image");
           if (img) {
             gsap.to(img, {
+              height: "100%",
               opacity: 1,
               duration: 0.3,
               ease: "power2.out"
@@ -84,20 +85,55 @@ export function renderCertification() {
 
       // Click for mobile
       let isActive = false;
-
       box.addEventListener("click", () => {
         if (isTouchDevice()) {
           isActive = !isActive;
-          gsap.to(box, {
-            height: 400,
-            duration: 0.3,
-            backgroundColor: "#121212",
-            color: "#ffffff",
-            alignItems: "start",
-            ease: "power2.out"
-          });
+
+          if (isActive) {
+            gsap.to(box, {
+              height: 400,
+              duration: 0.3,
+              backgroundColor: "#121212",
+              color: "#ffffff",
+              alignItems: "start",
+              ease: "power2.out"
+            });
+
+            const img = box.querySelector(".certificate-image");
+            if (img) {
+              gsap.to(img, {
+                marginTop:100,
+                marginLeft:-250,
+                height: 300,
+                width: 500,
+                opacity: 1,
+                duration: 0.3,
+                ease: "power2.out"
+              });
+            }
+          } else {
+            gsap.to(box, { 
+              height: 120,
+              width: 500,
+              duration: 0.3,
+              backgroundColor: "#ffffff",
+              color: "#000000",
+              alignItems: "center",
+              ease: "power2.out"
+            });
+
+            const img = box.querySelector(".certificate-image");
+            if (img) {
+              gsap.to(img, {
+                opacity: 0,
+                duration: 0.3,
+                ease: "power2.out"
+              });
+            }
+          }
         }
       });
+
     });
 
 }

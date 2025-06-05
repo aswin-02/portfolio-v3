@@ -1,6 +1,7 @@
 .footer-container{
     padding-inline: 3%;
     padding-top: 15px;
+    overflow-x: hidden;
 }
 
 .footer-content{

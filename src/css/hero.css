@@ -1,6 +1,7 @@
 
 .hero-content{
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .cirlcle-logo{
@@ -16,21 +17,22 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-size: 4rem; 
   user-select: none;
+  font-size: 4rem; 
 }
 
 .hero-stretch-left {
-  width: 40%;
+  width: 65%;
   display: block;
 }
 
 .hero-stretch-right {
     position: absolute;
-    right: -44%;
-    bottom: 10%;
+    right: 0%;
+    bottom: 0%;
     width: 66%;
     display: block;
+    overflow-x: hidden;
 }
 
 .about-container{
@@ -44,6 +46,7 @@
     padding: 10% 10% 10% 10%;
     font-family: "Anybody", sans-serif;
     font-size: 1.5em;
+    text-align: justify;
 }
 
 .float-container {

@@ -1,5 +1,7 @@
 
-.contact-title-container{
+.contact-container{
+    margin-top: 15%;
+    overflow-x: hidden;
 }
 
 .contact-title{
