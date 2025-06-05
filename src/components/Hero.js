@@ -12,7 +12,7 @@ export function renderHero() {
     <div class="hero-content mt-5">
         <div id="hero-text-left" class="hero-stretch-left"></div>
         <img src="public/assets/circle-logo.svg" class="cirlcle-logo"/>
-        <div id="hero-text-right" class="hero-stretch-right"></div>
+        <div id="hero-text-right" class="stretch-box"></div>
     </div>
     <div class="about-container container" id="about">
     <div class="about-title-container">
@@ -133,6 +133,8 @@ export function renderHero() {
   loadSvg();
   function setAnimationScroll(){
 
+    let isMobile = window.innerWidth <= 700 ? true : false;
+
     gsap.to("#secondary", 30, {
       x: 170,
       ease: "back.out",
@@ -144,10 +146,10 @@ export function renderHero() {
           pin:true,
         }
     })
-
-    gsap.to(".hero-stretch-right", 30, {
-      x: -650,
-      ease: "back.out",
+    if(!isMobile){
+      gsap.to(".hero-stretch-right", 30, {
+        x: -650,
+        ease: "back.out",
         scrollTrigger:{
           trigger:"#hero-content",
           start:"top-=50 top",
@@ -155,7 +157,20 @@ export function renderHero() {
           scrub:true,
           pin:true
         }
-    })
+      })
+    }else{
+      gsap.to(".hero-stretch-right", 30, {
+        x: -300,
+        ease: "back.out",
+        scrollTrigger:{
+          trigger:"#hero-content",
+          start:"top-=50 top",
+          end:"+=1000",
+          scrub:true,
+          pin:true
+        }
+      })
+    }
   }
 
   const texts = document.querySelectorAll('.float-text');

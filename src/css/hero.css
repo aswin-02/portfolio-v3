@@ -1,5 +1,6 @@
 
 .hero-content{
+    position: relative;
     height: 100vh;
     overflow-x: hidden;
 }
@@ -22,17 +23,33 @@
 }
 
 .hero-stretch-left {
-  width: 65%;
-  display: block;
+    position: absolute;
+    width: 60%;
+    display: block;
 }
 
 .hero-stretch-right {
     position: absolute;
-    right: 0%;
-    bottom: 0%;
-    width: 66%;
+    right: -40%;
+    bottom: 20%;
+    width: 60%;
     display: block;
     overflow-x: hidden;
+}
+
+@media only screen and (max-width:700px){
+    .cirlcle-logo{
+        transform: translate(-50%, -100%);
+    }
+    .hero-stretch-left {
+        top: 5%;
+        width: 75%;
+    }
+    .hero-stretch-right {
+        width: 100%;
+        right: -67%;
+        bottom: 25%;
+    }
 }
 
 .about-container{
