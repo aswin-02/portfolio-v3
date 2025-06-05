@@ -35,4 +35,16 @@ export function renderHeader() {
     </nav>
   `;
   document.body.prepend(header);
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll(".nav-menu");
+
+    navLinks.forEach(link => {
+      link.addEventListener("click", function () {
+        navLinks.forEach(l => l.classList.remove("active")); // Remove from all
+        this.classList.add("active"); // Add to clicked
+      });
+    });
+  });
+
 }

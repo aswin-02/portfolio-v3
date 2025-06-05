@@ -73,6 +73,7 @@ li a:hover > .menu-item-active {
 .menu-item-active {
   /* color: blue; */
 }
+
 @keyframes move-up-initialmenu-onHover {
   100% {
     transform: translateY(-100%);
@@ -106,4 +107,10 @@ li a:hover > .menu-item-active {
   justify-content: space-between;
   align-items: center;
   padding: 0.8rem 1.6rem;
+}
+
+
+.nav-menu.active span{ 
+  /*  filter: invert(1); */
+  color:rgb(72, 72, 72);
 }

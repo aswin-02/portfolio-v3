@@ -158,23 +158,15 @@ export function renderHero() {
     })
   }
 
-
   const texts = document.querySelectorAll('.float-text');
-
-
-
-  // Define how much scroll space per item (adjust as needed)
-  // const totalScrollLength = window.innerHeight * texts.length;
-
-
 
   gsap.fromTo(".float-container",
     { 
-      yPercent: -850,
+      yPercent: -900,
     },
     {
       xPercent: 7,
-      yPercent: 0,     // settle into original
+      yPercent: 0,
       scrollTrigger: {
         trigger: ".float-container",
         start: "top 85%",
@@ -189,7 +181,7 @@ export function renderHero() {
     start: "top-=100 90%",
     end: "center+=160 80%",
     scrub: true,
-    
+
     onUpdate: self => {
       const index = Math.floor(self.progress * texts.length);
 
