@@ -11,7 +11,7 @@ export function renderHero() {
   <div class="cursor-circle"></div>
     <div class="hero-content mt-5">
         <div id="hero-text-left" class="hero-stretch-left"></div>
-        <img src="public/assets/circle-logo.svg" class="cirlcle-logo"/>
+        <img src="../assets/circle-logo.svg" class="cirlcle-logo"/>
         <div id="hero-text-right" class="stretch-box"></div>
     </div>
     <div class="about-container container" id="about">

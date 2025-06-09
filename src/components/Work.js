@@ -18,7 +18,7 @@ export function renderWork() {
                 <div class="card-face">
                   <h2>Employee Management System</h3>
                   <div class="text-center image-container">
-                    <img class="card-image" src="../public/assets/works/EMS.svg" alt="Employee Management System"/>
+                    <img class="card-image" src="../assets/works/EMS.svg" alt="Employee Management System"/>
                   </div>
                   <div class="card-content">
                     <div class="project-decription">
@@ -34,7 +34,7 @@ export function renderWork() {
                 <div class="card-face">
                   <h2>Inventory Management System</h2>
                   <div class="text-center image-container">
-                    <img class="card-image" src="../public/assets/works/IMS.svg" alt="Inventory Management System"/>
+                    <img class="card-image" src="../assets/works/IMS.svg" alt="Inventory Management System"/>
                   </div>
                   <div class="card-content">
                     <div class="project-decription">
@@ -50,7 +50,7 @@ export function renderWork() {
                 <div class="card-face">
                   <h2>Movie Fetcher</h2>
                   <div class="text-center image-container">
-                    <img class="card-image" src="../public/assets/works/movie-fetcher.svg" alt="Movie Fetcher"/>
+                    <img class="card-image" src="../assets/works/movie-fetcher.svg" alt="Movie Fetcher"/>
                   </div>
                   <div class="card-content">
                     <div class="project-decription">
@@ -66,7 +66,7 @@ export function renderWork() {
                 <div class="card-face">
                   <h2>Vehicle Detection</h2>
                   <div class="text-center image-container">
-                    <img class="card-image" src="../public/assets/works/vechile-detection.svg" alt="Vechile Detection"/>
+                    <img class="card-image" src="../assets/works/vechile-detection.svg" alt="Vechile Detection"/>
                   </div>
                   <div class="card-content">
                     <div class="project-decription">
@@ -82,7 +82,7 @@ export function renderWork() {
                 <div class="card-face">
                   <h2>Image Prediction</h2>
                   <div class="text-center image-container">
-                    <img class="card-image" src="../public/assets/works/image-prediction.svg" alt="Image Prediction"/>
+                    <img class="card-image" src="../assets/works/image-prediction.svg" alt="Image Prediction"/>
                   </div>
                   <div class="card-content">
                     <div class="project-decription">
