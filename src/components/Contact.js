@@ -23,9 +23,9 @@ export function renderContact() {
             </div>
             <div class="col-6 social-box">
               <div>
-                <h2><a href="#">LinkedIn <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></a></h2>
-                <h2><a href="#">Github <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></a></h2>
-                <h2><a href="#">Email <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></a></h2>
+                <h2><a href="https://www.linkedin.com/in/aswin05/" target="_blank">LinkedIn <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></a></h2>
+                <h2><a href="https://github.com/aswin-02" target="_blank">GitHub <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></a></h2>
+                <h2><a href="mailto:aswinvijay325@gmail.com">Email <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></a></h2>
               </div>
             </div>
         </div>

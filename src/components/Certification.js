@@ -42,7 +42,7 @@ export function renderCertification() {
             height: 400,
             duration: 0.3,
             backgroundColor: "#121212",
-            color: "#ffffff",
+            color: "#faf6f3",
             alignItems: "start",
             ease: "power2.out"
           });
@@ -65,7 +65,7 @@ export function renderCertification() {
           gsap.to(box, { 
             height: 120,
             duration: 0.3,
-            backgroundColor: "#ffffff",
+            backgroundColor: "#faf6f3",
             color: "#121212",  
             alignItems: "center",
             ease: "power2.out"
@@ -94,7 +94,7 @@ export function renderCertification() {
               height: 400,
               duration: 0.3,
               backgroundColor: "#121212",
-              color: "#ffffff",
+              color: "#faf6f3",
               alignItems: "start",
               ease: "power2.out"
             });
@@ -116,7 +116,7 @@ export function renderCertification() {
               height: 120,
               width: 500,
               duration: 0.3,
-              backgroundColor: "#ffffff",
+              backgroundColor: "#faf6f3",
               color: "#000000",
               alignItems: "center",
               ease: "power2.out"

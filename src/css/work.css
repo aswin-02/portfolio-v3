@@ -47,9 +47,10 @@
 }
 
 .card-face {
-    position: absolute;
+    position: relative;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
     height: 100%;
     /* display: flex;
@@ -70,7 +71,7 @@
 .project-decription{
     font-family: "Anybody", sans-serif;
     font-style: normal;
-    font-size: large;
+    font-size: medium;
     text-align: justify;
 }
 
@@ -103,7 +104,26 @@
     perspective: 1500px;
 }
 
+.image-container{
+    min-height: 250px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image{
+    height: 70%;
+    width: 70%;
+}
+
+.card-content{
+    position: relative;
+}
+
 .project-footer{
+    position: absolute;
+    top: 140px;
+    right: 0;
     display: flex;
     justify-content: end;
 }

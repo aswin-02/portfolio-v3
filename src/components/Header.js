@@ -30,6 +30,11 @@ export function renderHeader() {
               <span class="menu-item">CERTIFICATIONS</span> <span class="menu-item-active">CERTIFICATIONS</span>
             </a>
           </li>
+          <li>
+            <a href="" class="nav-menu bg-dark">
+              <span class="menu-item">DOWNLOAD CV</span> <span class="menu-item-active">DOWNLOAD CV</span>
+            </a>
+          </li>
         </ul>
       </div>
     </nav>

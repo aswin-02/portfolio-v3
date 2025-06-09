@@ -9,6 +9,7 @@ body {
     /* cursor: url('../public/assets/ellipse.cur'), auto; */
     cursor: none;
     overflow-x: hidden;
+    background-color: #faf6f3;
 }
 
 /* Prevent Chrome's default smooth scrolling */
@@ -34,7 +35,7 @@ img{
     left: 0;
     width: 30px;
     height: 30px;
-    background-color: white;
+    background-color: #faf6f3;
     border-radius: 50%;
     pointer-events: none;
     z-index: 9999;

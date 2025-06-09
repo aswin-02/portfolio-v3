@@ -17,70 +17,80 @@ export function renderWork() {
             <div class="work-card">
                 <div class="card-face">
                   <h2>Employee Management System</h3>
-                  <div class="text-center">
-                    <img src="../public/assets/works/EMS.svg" alt="Employee Management System"/>
+                  <div class="text-center image-container">
+                    <img class="card-image" src="../public/assets/works/EMS.svg" alt="Employee Management System"/>
                   </div>
-                  <div class="project-decription">
-                    <p>Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                  </div>
-                  <div class="project-footer">
-                    <a href="#" class="light-btn">view</a>
+                  <div class="card-content">
+                    <div class="project-decription">
+                      <p>A full-featured web app built with Spring Boot to manage employees, departments, teams, and leave tracking. It handles everything from assigning departments to processing leave requests.</p>
+                    </div>
+                    <div class="project-footer">
+                      <a href="https://github.com/aswin-02/Employee-Management-System" class="light-btn" target="_blank">view</a>
+                    </div>
                   </div>
                 </div>
             </div>
             <div class="work-card">
                 <div class="card-face">
                   <h2>Inventory Management System</h2>
-                  <div class="text-center">
-                    <img src="../public/assets/works/IMS.svg" alt="Inventory Management System"/>
+                  <div class="text-center image-container">
+                    <img class="card-image" src="../public/assets/works/IMS.svg" alt="Inventory Management System"/>
                   </div>
-                  <div class="project-decription">
-                    <p>Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                  </div>
-                  <div class="project-footer">
-                    <a href="#" class="dark-btn">view</a>
+                  <div class="card-content">
+                    <div class="project-decription">
+                      <p>A simple but effective CRUD app built with React to manage inventory items. Add, update, delete, or view items, because even basic inventory deserves a smooth UI and clean state management.</p>
+                    </div>
+                    <div class="project-footer">
+                      <a href="https://github.com/aswin-02/Stockify" class="dark-btn" target="_blank">view</a>
+                    </div>
                   </div>
                 </div>
             </div>
             <div class="work-card">
                 <div class="card-face">
                   <h2>Movie Fetcher</h2>
-                  <div class="text-center">
-                    <img src="../public/assets/works/movie-fetcher.svg" alt="Movie Fetcher"/>
+                  <div class="text-center image-container">
+                    <img class="card-image" src="../public/assets/works/movie-fetcher.svg" alt="Movie Fetcher"/>
                   </div>
-                  <div class="project-decription">
-                    <p>Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                  </div>
-                  <div class="project-footer">
-                    <a href="#" class="light-btn">view</a>
-                  </div>
-                </div>
-            </div>
-            <div class="work-card">
-                <div class="card-face">
-                  <h2>Image Prediction</h2>
-                  <div class="text-center">
-                    <img src="../public/assets/works/image-prediction.svg" alt="Image Prediction"/>
-                  </div>
-                  <div class="project-decription">
-                    <p>Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                  </div>
-                  <div class="project-footer">
-                    <a href="#" class="dark-btn">view</a>
+                  <div class="card-content">
+                    <div class="project-decription">
+                      <p>A React based app that displays movie details like cast, summary, and other key info. Users can select a movie and get all the juicy details, no spoilers, just smooth UI and clean data rendering.</p>
+                    </div>
+                    <div class="project-footer">
+                      <a href="https://github.com/aswin-02/moviefetcher" class="light-btn" target="_blank">view</a>
+                    </div>
                   </div>
                 </div>
             </div>
             <div class="work-card">
                 <div class="card-face">
                   <h2>Vehicle Detection</h2>
-                  <div class="text-center">
-                    <img src="../public/assets/works/vechile-detection.svg" alt="Vechile Detection"/>
+                  <div class="text-center image-container">
+                    <img class="card-image" src="../public/assets/works/vechile-detection.svg" alt="Vechile Detection"/>
                   </div>
-                  <div class="project-decription">
-                    <p>Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                  <div class="card-content">
+                    <div class="project-decription">
+                      <p>A CNN-based model trained to distinguish between images of ambulances and firetrucks. It learns visual patterns from the dataset and accurately predicts the type of emergency vehicle in a given image.</p>
+                    </div>
+                    <div class="project-footer">
+                      <a href="https://github.com/aswin-02/vehicle_detection" class="dark-btn" target="_blank">view</a>
+                    </div>
                   </div>
-                  <div class="project-footer">
-                    <a href="#" class="light-btn">view</a>
+                </div>
+            </div>
+            <div class="work-card">
+                <div class="card-face">
+                  <h2>Image Prediction</h2>
+                  <div class="text-center image-container">
+                    <img class="card-image" src="../public/assets/works/image-prediction.svg" alt="Image Prediction"/>
+                  </div>
+                  <div class="card-content">
+                    <div class="project-decription">
+                      <p>Built a Convolutional Neural Network to classify images from the CIFAR-10 dataset, which includes 10 categories like airplanes, cats, and other wild creatures. It learns patterns from the data to predict image classes with solid accuracy.</p>
+                    </div>
+                    <div class="project-footer">
+                      <a href="https://github.com/aswin-02/Image-prediction" class="light-btn" target="_blank">view</a>
+                    </div>
                   </div>
                 </div>
             </div>

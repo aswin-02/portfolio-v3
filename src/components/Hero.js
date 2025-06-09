@@ -31,7 +31,7 @@ export function renderHero() {
             <span class="float-text d-none text-6">introvert in disguise</span>
             <span class="float-text d-none text-me">Aswin</span>
           </span>
-        <br> pursuing a  Bachelor's in Computer Science at Sri Ramakrishna Institute of  Technology. Enthusiastic about technology, I aim to excel in emerging  technologies. Currently seeking software development internships and  full-time roles to enhance skills and contribute to meaningful projects.</span>
+        <br>A full stack web developer who enjoys building both the backend and the frontend of websites. I work with Java, Spring Boot, Laravel, and PHP for backend development. I bring things to life with React, JavaScript, GSAP, and a touch of Three.js to create smooth, interactive frontends. I like making websites that not only work well but also look and feel great. I’m just here trying to make the web a cooler place. </span>
       </div>
     </div>
     <div class="skill-container" id="stack">
