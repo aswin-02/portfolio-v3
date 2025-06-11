@@ -31,7 +31,7 @@ export function renderHeader() {
             </a>
           </li>
           <li>
-            <a href="" class="nav-menu bg-dark">
+            <a href="" class="nav-menu btn-cv">
               <span class="menu-item">DOWNLOAD CV</span> <span class="menu-item-active">DOWNLOAD CV</span>
             </a>
           </li>
