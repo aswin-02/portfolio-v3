@@ -32,7 +32,7 @@ export function renderCertification() {
 
     // Detect if device is touch
     function isTouchDevice() {
-        return window.matchMedia("(hover: none) and (pointer: coarse)").matches;
+        return window.innerWidth <= 700 ? true : false;
     }
 
     boxes.forEach((box) => {
