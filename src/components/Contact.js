@@ -75,7 +75,7 @@ export function renderContact() {
     function getResponsiveScale(maxDim) {
       const isMobile = window.innerWidth <= 768;
       // Increased scale multipliers to make model larger
-      return isMobile ? 6 / maxDim : 8 / maxDim; // Changed from 4/maxDim to 6/8
+      return isMobile ? 5 / maxDim : 8 / maxDim; // Changed from 4/maxDim to 6/8
     }
 
     loadModel();

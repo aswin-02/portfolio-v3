@@ -4,6 +4,7 @@
 html {
   scroll-behavior: auto;
   cursor: none;
+  overflow-x: hidden;
 }
 body {
     /* cursor: url('../public/assets/ellipse.cur'), auto; */

@@ -139,7 +139,8 @@
 
 .skill-container{
     margin-top: 10%;
-    height: 25vh;
+    height: auto;
+    padding-block: 40px;
     background-color: #121212;
     color: #faf6f3;
     font-family: "Bebas Neue", sans-serif;
