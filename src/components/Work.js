@@ -10,7 +10,7 @@ export function renderWork() {
    <div class="work-content container" id="works">
       <div class="work-title-container">
         <h1 class="work-title">My Works</h1>
-        <img src="../assets/line-left.svg">
+        <img src="../assets/line-left.svg" class="border-line">
       </div>
       <div class="test-container">
         <div class="cards">

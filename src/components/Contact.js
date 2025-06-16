@@ -13,7 +13,7 @@ export function renderContact() {
     <div class="contact-container container">
         <div class="contact-title-container">
             <h1 class="contact-title">Connect with me</h1>
-            <img src="../assets/line-left.svg">
+            <img src="../assets/line-left.svg" class="border-contact-line">
         </div>
         <div class="contact-content row">
             <div class="col-6">

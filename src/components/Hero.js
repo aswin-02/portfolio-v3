@@ -17,7 +17,7 @@ export function renderHero() {
     <div class="about-container container" id="about">
     <div class="about-title-container">
       <h1 class="about-title">Myself</h1>
-      <img src="../assets/line.svg">
+      <img src="../assets/line.svg" class="border-line">
     </div>
       <div class="about-content">
         <br>

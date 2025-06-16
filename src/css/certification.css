@@ -42,6 +42,9 @@
     .cert-content{
         font-size: 2em;
     }
+    .border-cert-line{
+        width: 70%;
+    }
 }
 
 .certificate-image{

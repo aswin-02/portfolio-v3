@@ -11,7 +11,7 @@ export function renderCertification() {
         <div class="certification-container" id="certifications">
             <div class="cert-title-container container">
                 <h1 class="cert-title">Certifications</h1>
-                <img src="../assets/line.svg">
+                <img src="../assets/line.svg" class="border-cert-line">
             </div>
             <div class="cert-container">
                 <div class="cert-content">

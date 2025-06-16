@@ -48,4 +48,8 @@ img{
   .cursor-circle {
     display: none;
   }
+
+  .border-line{
+      width: 50%;
+  }
 }
