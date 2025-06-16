@@ -99,6 +99,8 @@ export function renderCertification() {
                         backgroundColor: "#121212",
                         color: "#faf6f3",
                         alignItems: "start",
+                        display: "flex",
+                        flexDirection: "column", 
                         ease: "power2.out"
                     });
 
@@ -106,7 +108,7 @@ export function renderCertification() {
                     if (img) {
                         gsap.to(img, {
                             marginTop: 20,
-                            marginLeft: 0,
+                            marginLeft: -30,
                             height: 300,
                             opacity: 1,
                             duration: 0.3,
@@ -121,6 +123,7 @@ export function renderCertification() {
                         backgroundColor: "#faf6f3",
                         color: "#121212",
                         alignItems: "center",
+                        flexDirection: "row", 
                         ease: "power2.out"
                     });
 

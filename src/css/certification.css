@@ -23,8 +23,9 @@
     position: relative;
     z-index: 998;
     background-color: #faf6f3;
-    height: 18%;
+    height: 120px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -46,7 +47,7 @@
 .certificate-image{
     padding: 20px;
     padding-left: 10%;
-    height: 120px;
+    height: 0px;
     opacity: 0;
     transition: opacity 0.2s ease-out;
     z-index: 888;
