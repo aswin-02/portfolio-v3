@@ -43,11 +43,13 @@ export function renderHeader() {
 
   document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.querySelectorAll(".nav-menu");
+    const navDiv = document.getElementById("navbarNav");
 
     navLinks.forEach(link => {
       link.addEventListener("click", function () {
-        navLinks.forEach(l => l.classList.remove("active")); // Remove from all
-        this.classList.add("active"); // Add to clicked
+        navLinks.forEach(l => l.classList.remove("active"));
+        this.classList.add("active");
+        navDiv.classList.remove("show");
       });
     });
   });

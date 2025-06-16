@@ -103,9 +103,9 @@ export function renderCertification() {
             if (img) {
               gsap.to(img, {
                 marginTop:100,
-                marginLeft:-250,
+                marginLeft:-325,
                 height: 300,
-                width: 500,
+                // width: 500,
                 opacity: 1,
                 duration: 0.3,
                 ease: "power2.out"
@@ -125,10 +125,13 @@ export function renderCertification() {
             const img = box.querySelector(".certificate-image");
             if (img) {
               gsap.to(img, {
+                marginTop:100,
+                marginLeft:-350,
                 opacity: 0,
                 duration: 0.3,
                 ease: "power2.out"
               });
+              
             }
           }
         }
