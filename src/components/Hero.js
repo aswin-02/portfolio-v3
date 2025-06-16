@@ -71,7 +71,7 @@ export function renderHero() {
               <img src="../assets/skills/tailwind.jpg" alt="tailwind" />
             </div>
           </div>
-        <sp class="row justify-content-center">
+        <span class="row justify-content-center">
           <span class="col-auto hover-text">JAVA</span>
           <sp class="col-auto">/</sp>
           <span class="col-auto hover-text">SPRING BOOT</span>
@@ -87,7 +87,7 @@ export function renderHero() {
           <span class="col-auto hover-text">JQUERY</span>
           <sp class="col-auto">/</sp>
           <span class="col-auto hover-text">MYSQL</span>
-        </sp>
+        </span>
 
         <sp class="row justify-content-center mt-2">
           <span class="col-auto hover-text">GSAP</span>
@@ -285,6 +285,4 @@ export function renderHero() {
       });
     });
   });
-
-
 }

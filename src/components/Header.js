@@ -31,7 +31,7 @@ export function renderHeader() {
             </a>
           </li>
           <li>
-            <a href="" class="nav-menu btn-cv">
+            <a href="https://drive.google.com/file/d/1qrvB9CwAZqQQxAwSo28P-WbORyaGrOuo/view?usp=sharing" class="nav-menu btn-cv">
               <span class="menu-item">DOWNLOAD CV</span> <span class="menu-item-active">DOWNLOAD CV</span>
             </a>
           </li>

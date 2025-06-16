@@ -15,11 +15,11 @@ export function renderCertification() {
     <div class="cert-container">
       <div class="cert-content">
         <span>JAVA - NPTEL CERTIFICATION</span>
-        <img src="../assets/certification/certificate1.png" class="certificate-image">
+        <img src="../assets/certification/Programming-In-Java.jpg" class="certificate-image">
       </div>
       <div class="cert-content">
         <span>BUSINESS ENGLISH PRELIMINARY</span>
-        <img src="../assets/certification/certificate2.png" class="certificate-image">
+        <img src="../assets/certification/BEC-Certificate-page.jpg" class="certificate-image">
       </div>
     </div>
    </div>
