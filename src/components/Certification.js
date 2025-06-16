@@ -85,10 +85,11 @@ export function renderCertification() {
 
       // Click for mobile
       let isActive = false;
+      let isImageActive = false;
       box.addEventListener("click", function () {
         if (isTouchDevice()) {
           isActive = !isActive;
-
+          
           if (isActive) {
             gsap.to(this, {
               height: 400,
@@ -101,6 +102,7 @@ export function renderCertification() {
 
             const img = this.querySelector(".certificate-image");
             if (img) {
+              isImageActive = !isImageActive;
               gsap.to(img, {
                 marginTop: 100,
                 marginLeft: -325,
@@ -122,7 +124,7 @@ export function renderCertification() {
             });
 
             const img = this.querySelector(".certificate-image");
-            if (img) {
+            if (img && isImageActive) {
               gsap.to(img, {
                 marginTop: 100,
                 marginLeft: -350,
