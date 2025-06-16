@@ -85,57 +85,54 @@ export function renderCertification() {
 
       // Click for mobile
       let isActive = false;
-box.addEventListener("click", function () {
-  if (isTouchDevice()) {
-    isActive = !isActive;
+      box.addEventListener("click", function () {
+        if (isTouchDevice()) {
+          isActive = !isActive;
 
-    if (isActive) {
-      gsap.to(this, {
-        height: 400,
-        duration: 0.3,
-        backgroundColor: "#121212",
-        color: "#faf6f3",
-        alignItems: "start",
-        ease: "power2.out"
+          if (isActive) {
+            gsap.to(this, {
+              height: 400,
+              duration: 0.3,
+              backgroundColor: "#121212",
+              color: "#faf6f3",
+              alignItems: "start",
+              ease: "power2.out"
+            });
+
+            const img = this.querySelector(".certificate-image");
+            if (img) {
+              gsap.to(img, {
+                marginTop: 100,
+                marginLeft: -325,
+                height: 300,
+                opacity: 1,
+                duration: 0.3,
+                ease: "power2.out"
+              });
+            }
+          } else {
+            gsap.to(this, {
+              height: 120,
+              width: 500,
+              duration: 0.3,
+              backgroundColor: "#faf6f3",
+              color: "#000000",
+              alignItems: "center",
+              ease: "power2.out"
+            });
+
+            const img = this.querySelector(".certificate-image");
+            if (img) {
+              gsap.to(img, {
+                marginTop: 100,
+                marginLeft: -350,
+                opacity: 0,
+                duration: 0.3,
+                ease: "power2.out"
+              });
+            }
+          }
+        }
       });
-
-      const img = this.querySelector(".certificate-image");
-      if (img) {
-        gsap.to(img, {
-          marginTop: 100,
-          marginLeft: -325,
-          height: 300,
-          opacity: 1,
-          duration: 0.3,
-          ease: "power2.out"
-        });
-      }
-    } else {
-      gsap.to(this, {
-        height: 120,
-        width: 500,
-        duration: 0.3,
-        backgroundColor: "#faf6f3",
-        color: "#000000",
-        alignItems: "center",
-        ease: "power2.out"
-      });
-
-      const img = this.querySelector(".certificate-image");
-      if (img) {
-        gsap.to(img, {
-          marginTop: 100,
-          marginLeft: -350,
-          opacity: 0,
-          duration: 0.3,
-          ease: "power2.out"
-        });
-      }
-    }
-  }
-});
-
-
     });
-
 }
